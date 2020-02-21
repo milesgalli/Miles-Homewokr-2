@@ -1,0 +1,103 @@
+*{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.html{
+    position: relative;
+    min-height: 100%;
+    Position: absolute;
+    
+}
+
+.navbar-brand{
+margin-top: 5px;
+width: 100%;
+padding:10px;
+background-color:royalblue;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.navbar-brand-1{
+margin-top: 20px;
+padding:10px;
+background-color: royalblue ;
+text-align: right;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+ #body {
+    padding:10px;
+    padding-bottom:60px
+ }
+
+.card-body{
+    width: 100%;
+    border: solid royalblue 0.5px;
+    padding: 2px;
+}
+
+.nav-item{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Sizing for All containers */
+.container {
+    padding: 12px;
+    min-height:100%;
+    position:relative;
+ }
+ /* border for Portfolio Container  */
+.col-md-7{
+    width: 100%;
+    margin-top: 40px;
+    padding-right: 50%;
+    border: solid royalblue 0.5px;
+}
+/* Border for contact container */
+.col-md-4{
+    width: 100%;
+    margin-top: 40px;
+    padding: 5%;
+    border: solid royalblue 0.5px;
+}
+
+/* Hides Big Nav when screen is large */
+@media screen and (min-width: 640px){
+    #nav-brand-big{
+    display: none;
+    
+    }
+
+/* Hides main nav when screen is small  */
+
+@media screen and (max-width:640px){
+#nav-brand{
+display: none;
+
+}
+#navCentre{
+justify-content: center;
+}
+
+
+}
+
+footer{
+        background-color: royalblue;
+        display: flex;
+    
+        height: 30px;
+        position: absolute;
+        width: 100%;   
+
+}
+}
+
+
+   
+
+
