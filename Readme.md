@@ -21,6 +21,7 @@ Steps Taken
  Creating a responive nav bar. 
 - When screen size is max 640px nav bar moves from right hand side to middle of the page. 
 - When screen size is max 940px nav bar moves from center to right hand side. 
+![](Screenshot/Screenshot-1.png)
 
 # step 2
 Creating Repsosnive portfolio. 
